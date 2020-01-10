@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // 네이티브 앱 키
+    <string name="kakao_app_key">8d2fc400faa512d31918ed02371c53a3</string>
+</resources>
