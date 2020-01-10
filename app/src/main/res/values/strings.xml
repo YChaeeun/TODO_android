@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TODO</string>
+    <string name="title_activity_login">LoginActivity</string>
+    
+    <!-- login -->
+    <string name="login_mail">메일 주소</string>
+    <string name="login_password">비밀 번호</string>
+    
+    <string name="login_join">회원가입</string>
+    <string name="login_find_password">비밀번호 찾기</string>
+    
+    <string name="login_complete">로그인</string>
+
+</resources>
