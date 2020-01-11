@@ -25,18 +25,22 @@
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/layout_login_top">
+            android:layout_above="@id/layout_login_bottom">
         
         <com.kakao.usermgmt.LoginButton
                 android:id="@+id/btn_kakao_login"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
     </RelativeLayout>
     
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@id/layout_login_bottom">
+            android:layout_above="@id/layout_login_bottom"
+            android:visibility="gone">
         
         <RelativeLayout
                 android:layout_centerInParent="true"

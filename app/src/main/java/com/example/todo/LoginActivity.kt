@@ -73,10 +73,16 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private class SessionCallback : ISessionCallback {
+
+        // memory와 cache에 session 정보가 전혀 없는 상태.
+        // 일반적으로 로그인 버튼이 보이고 사용자가 클릭시 동의를 받아 access token 요청을 시도한다.
         override fun onSessionOpenFailed(exception: KakaoException?) {
             Log.e("onSessionOpenFailed", "${exception?.message}")
         }
 
+
+        // access token을 성공적으로 발급 받아 valid access token을 가지고 있는 상태.
+        // 일반적으로 로그인 후의 다음 activity로 이동한다.
         override fun onSessionOpened() {
             UserManagement.getInstance().me(object : MeV2ResponseCallback() {
 
