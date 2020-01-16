@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TODO</string>
+
+    <string name="menu_save">save</string>
+</resources>
